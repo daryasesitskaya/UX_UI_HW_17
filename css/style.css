@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 html{scroll-behavior:smooth}
 
@@ -25,8 +26,12 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: normal;
     position: absolute;
-    padding: 190px 255px 40px 35px;
+    padding: 160px 2px 5px 35px;
+    height: 100%;
+    display: flex;
+    position: relative;
 }
+
 h3 {
     text-align: center;
     color: #000000;
@@ -99,7 +104,6 @@ p{
     display: flex;
     flex-direction: column;
 }
-
 .hello {
     height: 30px;
     width: 88%;
@@ -162,6 +166,7 @@ p{
     background-color:#C1D7E5;
     margin-bottom: 80px;
     margin-top: 40px;
+    position: relative;
 }
 .TwoCards {
     display: flex;
